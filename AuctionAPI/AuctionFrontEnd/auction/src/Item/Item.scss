@@ -1,0 +1,37 @@
+$base-color: #ced4da;
+$light-background: lighten(desaturate($base-color, 50%), 12.5%);
+
+.main-item-container{
+    background-color: saturate(lighten($base-color, 7.5%), 2.5%) !important;
+    color: #6b88a4;
+    border-radius: 3%;
+    input{
+        border: none;
+        color: #6b88a4;
+    }
+    img{
+        border-radius: 5px;
+    }
+    h3{
+        font-weight: bolder;
+    }
+    button{
+        border: none;
+        border-radius: 5px;
+        background: #4287f5;
+        color: white;
+    }
+}
+
+.deactivate-input{
+    background: #4287f5;
+    color: white!important;
+    cursor: default;
+}
+
+.deactivate-button{
+    background: red!important;
+}
+.activate-button{
+    background: green!important;
+}
